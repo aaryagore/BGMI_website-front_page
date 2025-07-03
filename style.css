@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    border:border-box;
+    font-family:arial;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    position:fixed;
+   
+}
+.nav-logo{
+    background-image: url('logo.png');
+    height:100%;
+    width:200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:10px;
+}
+.nav-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 2rem;
+    gap:40px;
+    margin-left:40px;
+    color: #ffffff80;
+}
+.nav-share{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 5rem;
+    font-size: 1.8rem;
+    margin-left:40px;
+    gap:40px;
+}
+.nav-device{
+    display: flex;
+    background-color:  rgb(255, 166, 0);
+    color:black;
+    font-weight: 5rem;
+     font-size: 0.7rem;
+      margin-left:30px;
+       justify-content: center;
+    align-items: center;
+    height:100%;
+    width:200px;
+    
+}
+.ios{
+     height:100%;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    border-right: 1px solid black;
+     font-weight: 5rem;
+     font-size: 0.7rem;
+   
+}
+.ads{
+     height:100%;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+     font-weight: 6rem;
+     font-size: 0.rem;
+}
+.nav-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-weight: 5rem;
+    font-size: 1.8rem;
+    margin-top: 26px;
+    margin-left: 20px;
+    background-color: black;
+}
+.panel1{
+    color:rgb(60, 18, 18);
+    background-image: url("heroo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:920px;
+    width: 100%;
+    font-size: 27px;
+}
+.panel-text{
+    margin-left:60px;
+    padding-top:170px;
+}
+.stores{
+    height:200px;
+    width:440px;
+    display:flex;
+    margin-left:69px;
+    gap:20px;
+    padding-top:40px;
+color:rgb(60, 18, 18);}
+.app{
+     font-size: 18px;
+    display:flex;
+    height:100px;
+    width:220px;
+    border: 2px solid transparent;
+    background-color:  rgb(230, 153, 10);
+    border-radius: 10px;
+    justify-content: center;
+    align-items:center;
+    padding-left: 9px;
+    margin-bottom:10px;
+    color:rgb(60, 18, 18);
+ 
+}
+.play{
+    font-size: 18px;
+    height:100px;
+    width:220px;
+    display:flex;
+    border: 2px solid transparent;
+    background-color:  rgb(230, 153, 10);
+    border-radius: 10px;
+    justify-content: center;
+    align-items:center;
+    padding-left: 9px;
+    color:rgb(60, 18, 18);
+    margin-bottom:10px;
+
+}
+.app i{
+    font-size: 35px;
+    margin-left:20px;
+    padding-right:10px;
+}
+.play i{
+    font-size: 28px;
+    margin-left:20px;
+    padding-right:10px;
+}
+.down{
+
+    display: flex;
+     flex-direction: column;
+   margin-left:69px;
+   margin-top:-85px;
+   color:rgb(60, 18, 18);
+   
+    
+}
+.buy{
+
+        display: flex;
+     font-size:20px;
+     background-color:  rgb(206, 80, 7);
+ justify-content: center;
+    align-items: center;
+    font-size:20px;
+    height:70px;
+    width:440px;
+     border:1px solid transparent;
+       border-radius: 10px;
+       margin-bottom:15px;
+       color:rgb(60, 18, 18);
+     
+           color:black;
+
+
+}
+.apk{
+        display: flex;
+     justify-content: center;
+    align-items: center;
+    font-size:20px;
+    height:70px;
+    width:440px;
+    border:1px solid transparent;
+         background-color:  rgb(230, 153, 10);
+    color:black;
+    border-radius: 10px;
+    color:rgb(60, 18, 18);
+}
+.border:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.gun{
+  
+    color: white;
+  -webkit-text-stroke: 1.5px  rgb(37, 29, 14);
+    font-size: 35px;
+    padding-top:20px;
+    display: flex;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.862);
+     height:40px;
+     width:100%;
+    
+   
+    
+}
+.panelmain2{
+     background-image: url("img1.webp") ;
+     background-size: cover;
+     height:380px;
+     width:100%;
+     justify-content: space-evenly;
+  border: 0.5px solid rgb(8, 4, 4);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 1px;
+  
+  
+  
+}
+.panel2{
+    height:250px;
+    width:100%;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    
+   
+   
+    
+}
+.akm{
+    background-image: url("akmmain.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:200px;
+      width: 400px;
+   
+      font-size: 35px;
+       color: transparent;
+  display: flex;
+  align-items: end;
+               color: white;
+  box-shadow: 0 0 25px 15px  rgba(207, 207, 184, 0.4);
+ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+  -webkit-text-stroke: 1.5px  rgb(53, 38, 10);
+}
+.m416{
+ background-image: url("dp.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+   height:200px;
+      width: 400px;
+             color: white;
+  -webkit-text-stroke: 1.5px  rgb(41, 31, 12);
+ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+
+ font-size: 35px;
+  box-shadow: 0 0 25px 15px  rgba(207, 207, 184, 0.4);
+  display: flex;
+  align-items: end;
+      
+     
+    
+ 
+
+}
+.ump{
+    background-image: url("umpmain.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+   height:200px;
+      width: 400px;
+            font-size: 35px;
+             color: white;
+  box-shadow: 0 0 25px 15px  rgba(207, 207, 184, 0.4);
+ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+
+  display: flex;
+  align-items: end;
+  -webkit-text-stroke: 1.5px  rgb(29, 22, 9);
+
+
+
+}
+.gun3{
+    background-image: url("gun3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+   height:200px;
+      width: 400px;
+       font-size: 35px;
+  display: flex;
+  align-items: end;
+           font-size: 35px;
+             color: white;
+  -webkit-text-stroke: 1.5px  rgb(24, 19, 7);
+  box-shadow: 0 0 25px 15px rgba(207, 207, 184, 0.4);
+ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+
+
+}
+.char{
+    height:600px;
+    width:100%;
+ color: white;
+ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+background-image: url("herec.webp");
+background-size: cover;
+background-repeat: no-repeat;
+  box-shadow: 0 0 25px 15px rgba(207, 207, 184, 0.4);
+}
+.char1{
+    color: white;
+  -webkit-text-stroke: 1.5px  rgb(37, 29, 14);
+    font-size: 32px;
+    padding-top:20px;
+ 
+     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.862);
+     height:240px;
+     width:470px;
+
+
+}
+.char2{
+      color:white;
+      font-size:20px;
+      text-shadow: none;
+      border:none;
+      text-align-last:end;
+      font-weight: none;
+      
+
+}
+.foot{
+    height:400px;
+    width:100%;
+    background-color: black;
+  
+}
+.wrap{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+ 
+}
+.bgmi{
+    background-image: url("logo.png");
+    height:70px;
+    width:180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    
+}
+.krafton{
+      background-image: url("krafton.avif");
+    height:140px;
+    width:280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.kraf{
+     color: white;
+     font-weight: none;
+     font-size: 15px;
+     margin-left: 570px;
+     margin-top:-5px;
+}
+.fut{
+   
+    font-weight: none;
+     font-size: 15px;
+    color: #ffffff80;
+    margin-left:195px;       
+    padding-top:40px;
+    display: flex;
+    gap:12px;
+}
+.last{
+    color: #fffbfb80;
+    font-size: 12px;
+    font-weight: none;
+    text-align: start;
+    padding-top:95.5px;
+    display: flex;
+    
+}
